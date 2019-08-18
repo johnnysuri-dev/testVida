@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JuegoDeVidaTest", "JuegoDeVidaTest\JuegoDeVidaTest.csproj", "{8FC81F9E-8E4E-4F16-B16C-21FD13404C85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebasUnitarias", "PruebasUnitarias\PruebasUnitarias.csproj", "{07B0DF1F-753B-4EC2-B47F-8200EE65142B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8FC81F9E-8E4E-4F16-B16C-21FD13404C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FC81F9E-8E4E-4F16-B16C-21FD13404C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FC81F9E-8E4E-4F16-B16C-21FD13404C85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07B0DF1F-753B-4EC2-B47F-8200EE65142B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B0DF1F-753B-4EC2-B47F-8200EE65142B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B0DF1F-753B-4EC2-B47F-8200EE65142B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B0DF1F-753B-4EC2-B47F-8200EE65142B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
