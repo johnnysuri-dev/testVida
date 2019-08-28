@@ -24,5 +24,21 @@ namespace PruebasUnitarias
             //Assert.AreEqual(40f, VidaTotal);
             Assert.AreEqual(40f, 0);
         }
+       
+        public void testCellStateCanChange() {
+
+            Cell changeCellALIVE = new Cell();
+            changeCellALIVE.getState();
+            Assert.AreEqual(true,changeCellALIVE.getNextState());
+
+        }
+        public void testCanLiveOnNextStage() {
+            Cell cell = new Cell();
+
+           cell.nextStage(4);
+           Assert.Equals(true,cell.getNextState());
+
+        }
+
     }
 }
